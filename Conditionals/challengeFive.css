@@ -1,0 +1,17 @@
+.warning {
+    color: rgb(255, 239, 14);
+    border: rgb(255, 239, 14);
+    background-color: rgb(255, 239, 14);
+}
+
+.error {
+    color: rgb(218, 15, 15);
+    border: red;
+    background-color: red;
+}
+
+.success {
+    color: rgb(5, 92, 20);
+    border: rgb(5, 92, 20);
+    background-color: rgb(5, 92, 20);
+}
