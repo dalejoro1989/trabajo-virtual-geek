@@ -1,5 +1,3 @@
-//concatenated strings challenge seven
-
 const name = 'lola';
 console.log(`Hola ${name}, encantada de conocerte.`);
 
