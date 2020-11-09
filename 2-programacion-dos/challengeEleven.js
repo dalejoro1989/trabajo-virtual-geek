@@ -27,5 +27,6 @@ NaN
 "55"
 '2' + 3 + 5
 "235"
-
+ Es un valor de tipo numérico un poco especial, ya que su nombre los describe como Not-a-Number. NaN es el valor que JavaScript devuelve cuando
+  intentamos realizar operaciones matemáticas con valores no numéricos o que no se pueden convertir a número.
 */
