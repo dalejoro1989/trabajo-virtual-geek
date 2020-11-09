@@ -9,7 +9,6 @@ console.log('Usted ha vivido: ' + liveAge + 'horas');
 function liveAges() {
     let age = 31;
     let hourAge = 8760;
-    
     liveAges = (age * hourAge);
     console.log('Usted ha Vivido: ' + liveAges + 'horas');
 }
