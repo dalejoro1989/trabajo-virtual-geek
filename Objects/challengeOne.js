@@ -1,4 +1,4 @@
-//crear objeto geekGirl
+//crear objeto geekGirl one
 const geekGirl = {};
 geekGirl.name = 'Juanita';
 geekGirl.edad = '62 años'
@@ -13,7 +13,7 @@ geekGirl.presentation = function (){
 console.log(geekGirl.presentation());
 
 // geekdirl dos
-//objeto
+//objeto geekgirl two
 const geekGirl2 = {};
 geekGirl.name = 'Juliana';
 geekGirl.edad = '32 años'
