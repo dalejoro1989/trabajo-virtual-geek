@@ -1,0 +1,15 @@
+//DEF ARRAY Y PONEMOS ELEMENTOS ARRAY 3 ELEMENTOS
+const movies = [
+    'EN BUSCA DE LA FELICIDAD',
+    'VANILLA SKY',
+    'HOMBRE EN LLAMAS'
+  ]
+  // PUT NEW MOVIE IN POSITION THREE
+  //CHANGE ELEMENT IN POSITION ZERO
+  movies[3] = 'SCARY MOVIE'
+  movies[0] = 'EL REY LEON'
+  
+  // FUNTION MOVIES TO SHOW IN CONSOLE
+  function workWithMovies (){
+  }
+  console.log(movies);
