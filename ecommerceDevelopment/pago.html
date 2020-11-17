@@ -21,18 +21,69 @@
       <br>
     <h1 style="color: white">INFORMACIÓN DE PAGO:</h1>
     <br>
-    <form class="form-inline">
 
-      <div class="form-group mx-sm-3 mb-2">
-        <label for="correo" class="sr-only">Correo Electrónico:</label>
-        <input type="correo" class="form-control" id="correo" placeholder="Correo@email.com">
-      </div>
+    <form>
+      <div class="form-group">
 
-      <div class="form-group mx-sm-3 mb-2">
-        <label for="inputPassword2" class="sr-only">Password</label>
-        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+        <table>
+          <tbody>
+          <tr>
+          <td>
+        <input type="nombreCompleto" class="form-control" id="nombreCompleto" aria-describedby="nombreCompleto" placeholder="Nombre Completo">
+        <small id="nombreCompleto" class="form-text text-muted"></small>
       </div>
-      <button type="pagar" class="btn btn-primary mb-2">Pagar</button>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+
+      <table>
+        <tbody>
+        <tr>
+        <td>
+      <div class="form-group">
+        <input type="email" class="form-control" id="email" aria-describedby="email" placeholder="Email@correo.com">
+        <small id="correo" class="form-text text-muted"></small>
+      </div>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+      <table>
+        <tbody>
+        <tr>
+        <td>
+      <div class="form-group">
+        <input type="numeroTarjeta" class="form-control" id="numeroTarjeta" aria-describedby="numeroTarjeta" placeholder="Número Tarjeta">
+        <small id="numeroTarjeta" class="form-text text-muted"></small>
+      </div>
+    </td>
+  </tr>
+  </tbody>
+  </table>
+
+      <table>
+        <tbody>
+        <tr>
+        <td>
+          <div class="form-group">
+            <input type="fechaVencimiento" class="form-control" id="fechaVencimiento" aria-describedby="fechaVencimiento" placeholder="Fecha Vencimiento">
+            <small id="fechaVencimiento" class="form-text text-muted"></small>
+          </div>
+        </td>
+        <td>
+          <div class="form-group">
+            <input type="cvv" class="form-control" id="cvv" aria-describedby="cvv" placeholder="CVV">
+            <small id="cvv" class="form-text text-muted"></small>
+          </div>
+        </td>
+        </tr>
+        </tbody>
+        </table>
+      
+      <button type="pagar" class="btn btn-primary">PAGAR</button>
     </form>
     </center>
 
