@@ -10,13 +10,33 @@
   <body style="background-color:#074b5f;">
     <center>
   <div class = "contenedor">
-
-    <button class="btn1 btn-primary btn-lg" id="productos" type="producto" onclick="navPages()"><a href="productos.html" style="color: white;">Producto</a></button>
-    <!--<button class="btn2 btn-primary btn-lg" id="detalleProducto" type="detalleProducto" onclick="navPages()"><a href="detalleProducto.html" style="color: white;">Detalle Producto</a></button>
-    <button class="btn3 btn-primary btn-lg" id="pago" type="pago" onclick="navPages()"><a href="pago.html" style="color: white;">Pagar</a></button>
-    -->
-    <button class="btn4 btn-primary btn-lg" id="carrito" type="carrito" onclick="navPages()"><a href="carrito.html" style="color: white;">Carrito</a></button>
-
+    <table>
+      <tbody>
+      <tr>
+      <td>
+        <button class="btn1 btn-primary btn-lg" id="productos" type="producto" onclick="navPages()"><a
+           href="productos.html" style="color: white;">Producto</a></button>
+      </td>
+      <td>
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css" rel="stylesheet"/>
+        <div class="cart-menu align-items-center d-flex">
+          <div class="sidebar-social">
+            <ul>
+              <li>
+                <a href="URL-HERE" class="cart" title="Facebook" target="_blank" rel="nofollow"><i class="fas fa-shopping-cart"></i><span>Carrito</span>
+                  <span id="cart_menu_num" data-action="cart-can" class="badge rounded-circle">5</span>
+                </a>
+        
+              </li>
+            </ul>
+          </div>
+        </div>
+      </td>
+      </tr>
+      </tbody>
+      </table>
+    
+    
   </div>
   <br>
   <img src="assets/marcas1.png" alt="Trulli" width="1000" height="500">
