@@ -11,20 +11,36 @@
   <div class = "contenedor">
     <button class="btn5 btn-primary btn-lg" id="inicio" type="inicio" onclick="paraAtras()"><a href="index.html" style="color: white;">Inicio</a></button>
     <button class="btn1 btn-primary btn-lg" id="producto" type="producto" onclick="navPages()"><a href="producto.html" style="color: white;">Producto</a></button>
-    <button class="btn2 btn-primary btn-lg" id="detalleProducto" type="detalleProducto" onclick="navPages()"><a href="detalleProducto.html" style="color: white;">Detalle Producto</a></button>
+    <!--<button class="btn2 btn-primary btn-lg" id="detalleProducto" type="detalleProducto" onclick="navPages()"><a href="detalleProducto.html" style="color: white;">Detalle Producto</a></button>
     <button class="btn4 btn-primary btn-lg" id="carrito" type="carrito" onclick="navPages()"><a href="carrito.html" style="color: white;">Carrito</a></button>
+    -->
     
-  </div>
-  <div align = "left">
+    <center>
+      <br>
+      <br>
+      <br>
+    <h1 style="color: white">INFORMACIÓN DE PAGO:</h1>
     <br>
-    <br>
-    <br>
-    <button class="btn6 btn-primary btn-lg" type="producto">Hombres</button>
-    <br>
-    <br>
-    <br>
-    <button class="btn7 btn-primary btn-lg" type="producto">Mujeres</button>
-  </div>
+    <form class="form-inline">
+
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="correo" class="sr-only">Correo Electrónico:</label>
+        <input type="correo" class="form-control" id="correo" placeholder="Correo@email.com">
+      </div>
+
+      <div class="form-group mx-sm-3 mb-2">
+        <label for="inputPassword2" class="sr-only">Password</label>
+        <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
+      </div>
+      <button type="pagar" class="btn btn-primary mb-2">Pagar</button>
+    </form>
+    </center>
+
+
+
+
+
+
   <footer class="page-footer font-small blue">
     <!-- Copyright -->
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
