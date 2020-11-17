@@ -8,12 +8,11 @@
   </head>
   <body style="background-color:#074b5f;">
     <center>
-
-<button onclick="window.location.href="https://www.facebook.com/marcasdm"> MARCAS FACEBOOK</button>
+ <img src="assets/marcas1.png" alt="Trulli" width="1000" height="500">
+<br>
     <div class="footer-copyright text-center py-3">© 2020 Copyright:
       <a href="https://www.facebook.com/marcasdm"> Marcas FaceBook</a>
     </div>
-    <!-- Copyright -->
     </div>
   </center>
   </body>
