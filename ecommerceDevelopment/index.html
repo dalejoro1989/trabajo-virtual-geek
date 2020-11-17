@@ -10,24 +10,25 @@
   <body style="background-color:#074b5f;">
     <center>
   <div class = "contenedor">
-    <button class="btn1 btn-primary btn-lg" type="producto">Producto</button>
-    <button class="btn2 btn-primary btn-lg" type="producto">Detalle Producto</button>
-    <button class="btn3 btn-primary btn-lg" type="producto">Pago</button>
-    <button class="btn4 btn-primary btn-lg" type="producto">Carrito</button>
+
+    <button class="btn1 btn-primary btn-lg" id="productos" type="producto" onclick="navPages()"><a href="productos.html" style="color: white;">Producto</a></button>
+    <button class="btn2 btn-primary btn-lg" id="detalleProducto" type="detalleProducto" onclick="navPages()"><a href="detalleProducto.html" style="color: white;">Detalle Producto</a></button>
+    <button class="btn3 btn-primary btn-lg" id="pago" type="pago" onclick="navPages()"><a href="pago.html" style="color: white;">Pagar</a></button>
+    <button class="btn4 btn-primary btn-lg" id="carrito" type="carrito" onclick="navPages()"><a href="carrito.html" style="color: white;">Carrito</a></button>
+
   </div>
   <br>
   <img src="assets/marcas1.png" alt="Trulli" width="1000" height="500">
 <br>
   <div>
     <br>
-    <img src="assets/marcas1.png" alt="Trulli" width="500" height="250">
-    <img src="assets/marcas1.png" alt="Trulli" width="500" height="250">
+    <a href="productos.html"><img src="assets/hombres.png"id="hombres" alt="Trulli" width="500" height="250" onclick="navPages()"></a>
+    <a href="productos.html"><img src="assets/mujeres.png"id="mujeres" alt="Trulli" width="500" height="250" onclick="navPages()"></a>
+
   </div>
   <div>
-
     <!-- Footer -->
 <footer class="page-footer font-small blue">
-
   <!-- Copyright -->
   <div class="footer-copyright text-center py-3">© 2020 Copyright:
     <a href="https://www.facebook.com/marcasdm"> Marcas FaceBook</a>
