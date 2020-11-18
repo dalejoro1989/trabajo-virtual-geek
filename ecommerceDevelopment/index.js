@@ -3,7 +3,7 @@ function  navPages() {
     document.getElementById("detalleProductos").href="detalleProducto.html";
     document.getElementById("pago").href="pago.html";
     document.getElementById("carrito").href="carrito.html";
-    document.getElementById("mujeres").href="productos.html";
-    document.getElementById("hombres").href="productos.html";
+    document.getElementById("mujeres").href="productos.html#muj";
+    document.getElementById("hombres").href="productos.html#hom";
 
 }
